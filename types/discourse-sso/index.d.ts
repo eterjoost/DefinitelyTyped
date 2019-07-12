@@ -20,8 +20,8 @@ declare namespace DiscourseSSO {
         username?: string;
         name?: string;
         avatar_url?: string;
-        add_groups?: string[];
-        remove_groups?: string[];
+        add_groups?: string;
+        remove_groups?: string;
     }
 }
 export = DiscourseSSO;
